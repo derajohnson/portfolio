@@ -1,0 +1,311 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 8px 15px 8px 15px;
+ 
+}
+
+nav.navbar{
+padding: 0px;
+}
+
+button{
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+color: black;
+background: #f1f1f1;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.vintage{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family:   'Courier New', Courier, monospace
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.vintage p{
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+section.image{
+    background: url('../img/bg.jpg') center no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+}
+
+.arrivals{
+    position: relative;
+    top: 200px;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h3{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: white;
+    font-size: 2.5em;
+}
+
+.arrivals p button{
+    background: darkgray;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    outline: none;
+
+}
+
+.arrivals p button:hover{
+    opacity: 0.5;
+}
+
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    background: #f1f1f1;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.delivery span p{
+    background: black;
+    color: white;
+    padding: 10px 40px 20px 40px;
+    margin: 0 
+}
+
+.products{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 100px;
+    padding-top: 40px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tags div button p{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tags div button{
+    border-radius: 20px;
+    background: #f1f1f1;
+    color: black;
+}
+
+.clothing{
+    display: flex;
+    margin: 40px 0 10px 0;
+    justify-content: space-evenly;
+    
+}
+
+.clothing div img{
+    height: 480px;
+    width: 320px;
+    position: relative;
+
+
+}
+
+.clothing p span{ 
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.clothing div p{
+text-align: center;
+}
+
+.clothing div p button{
+    border-radius: 10px;
+    background: rgb(230, 26, 26);
+   transition: 1s;
+   outline: none;
+}
+
+.clothing div p button:hover{
+    color: white;
+}
+
+.load-more{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.load-more button{
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    background: white;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s
+}
+
+.load-more button:hover{
+    color: white;
+    background: rgb(230, 26, 26);
+    border: none;
+}
+
+section.bg{
+    background: url("../img/bg-2.jpg") center no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin: 60px 0px 60px 0px;
+}
+
+.strip{
+    top: 120px;
+}
+
+footer{
+    background: black;
+    padding: 10px 0px 130px 0px;
+
+}
+
+footer div .text{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding-bottom: 0px;
+}
+
+.container{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-bottom: 50px
+}
+
+hr{
+    width: 820px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 40px
+}
+
+.contact{
+    font-size: 1.6em
+}
+
+div.item i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    font-size: 34px;
+    color: #000000;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #ffffff;
+  }
+  
+  div.item a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  div.item {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  div.item * {
+    box-sizing: border-box;
+  }
+  
+  
+  div.item {
+    background-color: #e74c3c;
+  }
+  div.item.red i {
+    color: #e74c3c;
+  }
+  
+  div.item:hover img {
+    opacity: 0.3;
+    filter: grayscale(100%);
+  }
+  
+  div.item * {
+    transition: all .35s ease-in-out;
+  }
+  
+  div.item i {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  
+  div.item:hover i {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+   
+  
+
+/* hover and icons come out from image */

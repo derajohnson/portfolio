@@ -1,0 +1,465 @@
+body{
+    background-color: #100e17 !important;
+    margin: 0 !important;
+}
+
+li{
+    font-weight: bold;
+}
+
+
+a.nav-link{
+    color: white !important;
+    opacity: 0.8;
+    font-size: 17px;
+    transition: 0.5s;
+    margin-right: 18px !important;
+
+}
+
+a.nav-link:hover{
+    color: #2196F3 !important;
+}
+
+li.active a{
+    border-bottom: 1px solid white;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+#navbarNav{
+    background-color: #100e17 !important;
+    margin-bottom: 140px;
+}
+
+.icons{
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.landing{
+    color: white;
+    margin-bottom: 220px;
+}
+.image img{
+    width: 400px;
+    border: 20px solid black;
+    border-radius: 200px;
+    padding: 20px;
+    transition-duration: 2s;
+}
+
+.image img:hover{
+    transform: rotate(360deg)
+}
+
+
+.hello{
+    background: #2196F3;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    width: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h2{
+   font-size: 3em !important; 
+}
+
+h3{
+margin-bottom: 30px !important;
+}
+
+.contact i{
+    padding-right: 10px;
+}
+
+.contact i:hover{
+    color: #2196F3;
+}
+
+button{
+    background: #100e17;
+    color: white;
+    outline: none;
+    border: none; 
+    transition: 0.3s;
+    border-radius: 5px;  
+
+}
+
+
+.icons button:hover{
+    color: #2196F3;
+    background: white;
+    border-radius: 5px;  
+
+}
+
+.inner{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.about-me{
+    color: white;
+    margin-bottom: 220px;
+}
+
+h4{
+    font-size: 2em !important;
+    margin-bottom: 20px !important;
+}
+
+.btn button {
+    border: 1px solid #2196F3;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 0 !important;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.download{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: #2196F3;
+    border-radius: 20px;
+}
+.title{
+    color: white;
+}
+p.what-i-do{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title i{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.fa-cogs:before{
+    color: #9774fa;
+}
+
+.fa-code:before{
+    color: #ed7256;
+}
+
+.fa-object-group:before{
+    color: #2196F3
+}
+
+.design{
+    border: 1px solid black;
+    padding: 40px 20px 40px 20px;
+    box-shadow: -1rem 0 3rem #000;
+    background: #202026;
+}
+
+h5{
+    margin-bottom: 20px !important;
+}
+
+.title{
+    margin-bottom: 220px;
+}
+
+.experiences{
+    color: white;
+}
+
+div.education{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+div.study{
+    border: 1px solid black;
+    padding: 30px 20px 30px 30px;
+    box-shadow:  -1rem 0 3rem #000;
+    margin-bottom: 30px;
+    background: #202026;
+}
+
+.art{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.blue{
+    color: #2196F3
+}
+
+ul {
+    padding-left: 20px !important;
+    margin-bottom: 0 !important;
+
+}
+
+.experiences{
+    margin-bottom: 220px;
+}
+
+.portfolio{
+    color: white;
+    margin-bottom: 220px;
+}
+
+.recent{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+ .list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-bottom: 60px !important;
+    flex-wrap: wrap;
+}
+
+.categories{
+    border-bottom: 2px solid #2196F3;
+    padding-bottom: 10px;
+}
+
+.portfolio img{
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+div.item i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    font-size: 34px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  
+  div.item {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    width: 100%;
+    background: #2196F3;
+    text-align: center;
+    border-radius: 11px;
+    border-bottom: 20px;
+    
+  }
+ 
+  
+  div.item:hover img {
+    opacity: 0.3;
+    filter: grayscale(100%);
+    background-color: #2196F3;
+
+  }
+  
+  div.item * {
+    transition: all 0.35s ease-in-out;
+  }
+  
+  div.item i {
+    transform: translate(-50%, -100%) scale(0);
+    transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  
+  div.item:hover i{
+    transform: translate(-50%, -100%) scale(0.6);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  }
+   
+section.pricing{
+    color: white;
+    text-align: center;
+    margin-bottom: 220px;
+}
+
+.pricing i{
+    color: #2196F3;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.prices{
+    box-shadow: -1rem 0 3rem #000;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #202026;
+}
+
+.jobs{
+    font-weight: bold;
+    font-size: 1.6em
+}
+
+.dollars{
+    color: #2196F3;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div.ads p {
+    margin-bottom: 10px;
+}
+
+.pricing button{
+    background: #2196F3;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+section.blog{
+    color: white;
+    margin-bottom: 220px;
+}
+
+a.cards{
+    color: white;
+    text-decoration: none !important;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.cards:hover{
+    color: #2196F3;
+}
+
+.blog img{
+    margin-bottom: 20px;
+}
+.blog span{
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.post{
+    margin-top: 10px;
+}
+
+.more{
+    text-decoration: none !important;
+
+}
+
+.image-card{
+    box-shadow: -1rem 0 3rem #000;
+    padding: 10px;
+    background: #202026;
+}
+
+.text{
+    padding: 0 20px 20px 20px;
+}
+
+.reviews{
+    color: white;
+    margin-bottom: 220px;
+    text-align: center;
+}
+
+.clients{
+    border: 1px solid black;
+    background: #202026;
+    box-shadow: -1rem 0 3rem #000;
+    padding: 30px;
+}
+
+.name, .ceo{
+    font-weight: bold;
+}
+
+.name{
+    margin-bottom: 0;
+}
+
+.clients img{
+    padding: 0px;
+    border: 5px solid #2196F3;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.identification{
+    text-align: center;
+    color: white;
+    margin-bottom: 220px;
+}
+
+div.details{
+    border: 1px solid black;
+    box-shadow:  -1rem 0 3rem #000;
+    background: #202026;
+    padding: 30px 20px 30px 20px; 
+}
+
+p.phone, p.address, p.email{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.details i{
+    font-size: 1.5em;
+    border: 1px solid #2196F3;
+    border-radius: 50%;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-image: url(./projectimage/map-color-overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 90px auto;
+    background-position: center center;
+}
+
+.form-control{
+    background: transparent !important;
+    color: white !important;    
+    box-shadow: none !important;
+}
+
+.send{
+    background: #2196F3;
+    color: white;
+    padding:10px 20px 10px 20px;
+    width: 100%;
+    border-radius: 50px;
+    outline: none !important;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 350px){
+    div.design{
+        margin-top: 30px;
+    }
+}
